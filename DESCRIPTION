@@ -1,6 +1,6 @@
 Package: neuroCombatData
 Title: Example dataset for neuroCombat
-Version: 0.99.0
+Version: 0.99.1
 Authors@R: 
     person("Jean-Philippe", "Fortin", email = "fortin946@gmail.com", role = c("aut", "cre"))
 Depends: R (>= 3.6.0), 
@@ -13,6 +13,8 @@ Suggests:
     knitr,
     rmarkdown,
     testthat
+Remotes:
+    bioc::SummarizedExperiment
 Description: Provides a multi-site cortical thickness measurements
     (263 subjects across 9 sites). Data were simulated based on a 
     subset of the UCSF FreeSurfer cross-sectional cortical thickness
