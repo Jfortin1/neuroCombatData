@@ -16,13 +16,13 @@ neuroCombat can be installed in R by typing the following commands:
 
 ```{r}
 library(devtools)
-install_github("jfortin1/CombatHarmonization/R/neuroCombatData")
+install_github("jfortin1/neuroCombatData")
 ```
 
 This also required to have neuroCombat installed:
 
 ```{r}
-install_github("jfortin1/CombatHarmonization/R/neuroCombat")
+install_github("jfortin1/neuroCombat_Rpackage")
 ```
 
 
